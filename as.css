@@ -1,0 +1,45 @@
+
+body{
+	background-image:  linear-gradient(to left,#4D2A00,#9C4800);
+}
+h1{
+	color:#FFAB4A;
+	font-size: 40px;
+	text-align:center;
+	text-shadow: 3px 3px 3px grey; 
+}
+.offer_detail {
+	margin: 100px auto 0px auto;
+	display: flex;
+	justify-content: space-around;
+	}	
+
+
+.box1, .box2, .box3{ 
+	border-radius: 20px;            
+	background-color: #4D2A00;
+	padding-right: 40px;
+	box-shadow: 10px 10px 10px  black;
+}
+   
+
+.box1 >h1, .box2 >h1, .box3 >h1{
+	color: #000;
+	text-shadow: 2px 2px 2px grey;
+	text-align: center;
+
+}
+
+.box1 >button, .box2 >button, .box3 >button{
+	font-size: 20px;
+	background-color: lightbrown;
+	margin-left:100px;
+	margin-bottom: 10px;
+	box-shadow: 2px 3px 2px grey;
+}
+
+ul{
+	color: #FFAB4A ;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px grey;
+}
